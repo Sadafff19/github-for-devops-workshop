@@ -1,0 +1,15 @@
+ls -a
+git status
+git add testing.js
+git status
+git rm --cached testing.js
+git status
+git commit -m "added testing file"
+git add .
+git commit -m "added testing file"
+git status
+git commit
+rm testing.js
+clear
+git status
+git restore testing.js
